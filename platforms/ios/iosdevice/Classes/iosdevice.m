@@ -28,8 +28,8 @@
     UIDevice *deviceInfo = [UIDevice currentDevice];
     
     DeviceName = deviceInfo.name;
-  //  uuid = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
-    uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
+    uuid = [[[ASIdentifierManager sharedManager] advertisingIdentifier] UUIDString];
+   // uuid = [[[UIDevice currentDevice] identifierForVendor] UUIDString];
 
     
     
